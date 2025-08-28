@@ -134,13 +134,21 @@
 	      </dependency>
 		    <!-- spring JDBC 설정 -->
 		    
-		  <!-- mysql driver -->
+		  <!-- mysql driver 설정-->
 		  <dependency>
 		  	<groupId>mysql</groupId>
 		  	<artifactId>mysql-connector-java</artifactId>
 		  	<version>8.0.11</version>
 		  </dependency>
-		   <!-- mysql driver -->       
+		   <!-- mysql driver -->   
+			
+		<!-- spring tx 설정 -->
+	       <dependency>
+	          <groupId>org.springframework</groupId>
+	          <artifactId>spring-tx</artifactId>
+	          <version>4.1.4.RELEASE</version> <!-- 프로젝트 버전에 맞춤 -->
+	      </dependency> 	
+		   
 	</dependencies>
     <build>
         <plugins>
